@@ -160,3 +160,36 @@
 .border-spacing-y-72 { border-spacing: var(--tw-border-spacing-x) 18rem; }
 
 .border-spacing-80 { border-spacing: 20rem 20rem; }
+
+/* CAPTION SIDE-ASHUTOSH */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Caption on top */
+.caption-top {
+    caption-side: top;
+}
+
+/* Caption on bottom */
+.caption-bottom {
+    caption-side: bottom;
+}
+
+/* Example styles for the table */
+table {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
